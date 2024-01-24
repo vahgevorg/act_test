@@ -1,5 +1,3 @@
-package com.unlimitedbiking.micromobility.ui
-
 class ParkingDilemmaSolution {
 
     /**
