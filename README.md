@@ -1,3 +1,15 @@
+# Kotlin Solutions for Algorithmic Challenges
+
+## General Overview
+This repository contains solutions to two distinct algorithmic challenges, implemented in Kotlin. These challenges include identifying distinct "countries" in a map based on color continuity (Map Countries Solution) and calculating the minimum roof length required to cover a certain number of cars in a parking lot (Parking Dilemma Solution). Both solutions demonstrate efficient use of algorithmic thinking and Kotlin programming capabilities.
+
+## Tech Stack
+- **Language**: Kotlin
+- **Concepts**: Depth-First Search, Sorting, Sliding Window
+
+---
+
+
 # Map Countries Solution
 
 ## Overview
