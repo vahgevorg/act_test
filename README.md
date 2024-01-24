@@ -34,10 +34,10 @@ The solution has been tested with various input scenarios to ensure correctness 
 This Kotlin-based solution addresses the Parking Dilemma problem, where the objective is to find the minimum length of a roof that can cover at least `k` cars in a straight-line parking lot.
 
 ## Solution Description
-The `carParkingRoof` function in this project is designed to calculate the shortest roof length required to cover a specified number of cars, `k`, parked in a parking lot. The parking lot is represented as a linear arrangement of parking spots.
+The `getCarParkingRoof` function in this project is designed to calculate the shortest roof length required to cover a specified number of cars, `k`, parked in a parking lot. The parking lot is represented as a linear arrangement of parking spots.
 
 ### Functionality
-The function `carParkingRoof` takes an array of integers representing the positions of parked cars and an integer `k`, denoting the minimum number of cars the roof must cover. It returns the minimum length of the roof that satisfies this requirement.
+The function `getCarParkingRoof` takes an array of integers representing the positions of parked cars and an integer `k`, denoting the minimum number of cars the roof must cover. It returns the minimum length of the roof that satisfies this requirement.
 
 ### Algorithm
 The solution is based on sorting the positions of cars and then sliding a window of size `k` along the sorted positions to find the minimum distance that can cover `k` cars.
@@ -47,7 +47,7 @@ The solution is based on sorting the positions of cars and then sliding a window
 - **Sliding Window**: A window of size `k` is slid through the sorted positions to calculate the length needed to cover `k` consecutive cars. The minimum of these lengths is determined to be the solution.
 
 ### Usage
-The function can be directly invoked with the array of car positions and the number `k` as arguments. For instance, `carParkingRoof(intArrayOf(6, 2, 12, 7), 3)` would return the minimum length of the roof required to cover at least 3 cars.
+The function can be directly invoked with the array of car positions and the number `k` as arguments. For instance, `getCarParkingRoof(intArrayOf(6, 2, 12, 7), 3)` would return the minimum length of the roof required to cover at least 3 cars.
 
 ## Constraints
 - The number of cars `n` is within the range 1 to 100,000.
